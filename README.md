@@ -61,8 +61,7 @@ In ngsw-config.we can additionally cache some data with json. That is, to add no
 
 ### How to make a production build?
 
-before installing, delete the file from your project, it is an example.
-
+Before installing, delete the file from your project, it is an example.
 In the console, we write `ng build --configuration production`.
 After installation, the dist folder will appear. To test this application, you need to write `npm install -g http-server` in the console.
 After that, continuing to work in the console, go to the dist folder (`cd dist/`) -> go to the project folder (in my case `cd angular-blog/`) and from here start our local server by typing the command `http-server -p 4200`. And now we can look at the application.
