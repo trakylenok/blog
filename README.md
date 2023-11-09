@@ -48,6 +48,10 @@ Project Overview -> click at the Web App icon -> add Firebase to the web applica
 Where can I get fbDBUrl?
 Go to the Real time Database tab -> copy reference url
 
+Realtime Database -> Rules
+
+Edit ".read": true and ".write": "auth != null"
+
 ## Adding a PWA to an application
 
 In the console, we write `ng add @angular/pwa`.
